@@ -1,4 +1,4 @@
-package com.microservice.liberary_management.controller.exception;
+package com.microservice.liberary_management.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

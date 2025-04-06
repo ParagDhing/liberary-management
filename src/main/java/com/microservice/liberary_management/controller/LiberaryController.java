@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.microservice.liberary_management.controller.exception.BookNotFoundException;
 import com.microservice.liberary_management.dto.BookDTO;
+import com.microservice.liberary_management.exception.BookNotFoundException;
 import com.microservice.liberary_management.model.Book;
 import com.microservice.liberary_management.model.Liberary;
 import com.microservice.liberary_management.service.BookService;
